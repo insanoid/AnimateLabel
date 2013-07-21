@@ -18,6 +18,7 @@
 		93A6AED41792BF5B003A8BE1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93A6AED31792BF5B003A8BE1 /* Default-568h@2x.png */; };
 		93A6AED71792BF5B003A8BE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6AED61792BF5B003A8BE1 /* ViewController.m */; };
 		93A6AEDA1792BF5B003A8BE1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A6AED81792BF5B003A8BE1 /* ViewController.xib */; };
+		93A6AEE21792BF67003A8BE1 /* ATLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A6AEE11792BF67003A8BE1 /* ATLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		93A6AED51792BF5B003A8BE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		93A6AED61792BF5B003A8BE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		93A6AED91792BF5B003A8BE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		93A6AEE01792BF67003A8BE1 /* ATLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLabel.h; sourceTree = "<group>"; };
+		93A6AEE11792BF67003A8BE1 /* ATLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		93A6AEC31792BF5B003A8BE1 /* AnimateText */ = {
 			isa = PBXGroup;
 			children = (
+				93A6AEE01792BF67003A8BE1 /* ATLabel.h */,
+				93A6AEE11792BF67003A8BE1 /* ATLabel.m */,
 				93A6AECC1792BF5B003A8BE1 /* AppDelegate.h */,
 				93A6AECD1792BF5B003A8BE1 /* AppDelegate.m */,
 				93A6AED51792BF5B003A8BE1 /* ViewController.h */,
@@ -176,6 +181,7 @@
 				93A6AECA1792BF5B003A8BE1 /* main.m in Sources */,
 				93A6AECE1792BF5B003A8BE1 /* AppDelegate.m in Sources */,
 				93A6AED71792BF5B003A8BE1 /* ViewController.m in Sources */,
+				93A6AEE21792BF67003A8BE1 /* ATLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
