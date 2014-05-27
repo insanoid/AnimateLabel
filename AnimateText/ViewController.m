@@ -35,7 +35,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.animatedLabel animateWithWords:@[@"Alabama",@"Alaska",@"Arizona",@"Arkansas",@"California",@"Colorado"] forDuration:3.0f];
+    [self.animatedLabel animateWithWords:@[@"Alabama",@"Alaska",@"Arizona",@"Arkansas",@"California",@"Colorado"] forDuration:3.0f withAnimation:ATAnimationTypeSlideTopInBottomOut];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
